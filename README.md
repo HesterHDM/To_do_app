@@ -39,4 +39,15 @@ A simple todo app built with Django.
 
 5. Once the server is hosted, head over to `http://127.0.0.1:8000/todos` for the App.
 
+
+##docker compose commands :V2
+
+1. Run `docker compose up` to start the container
+
+2. Run `docker compose stop` to stop the container
+
+3. Run `docker compose down` to remove the container
+
+4. Run `docker system prune -a to remove` all stopped containers, unused networks, and dangling images.
+
 * Cheers and Happy Coding! 🚀
