@@ -1,8 +1,8 @@
 FROM python:3.11-alpine
 
 WORKDIR /app
-
-RUN pip install Django==4.2.7
+Copy requirements.txt /app
+RUN pip install -r requirements.txt
 
 COPY . .
 
